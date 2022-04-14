@@ -1,0 +1,110 @@
+{
+  "kind": "collectionType",
+  "collectionName": "jobs",
+  "info": {
+    "singularName": "job",
+    "pluralName": "jobs",
+    "displayName": "job",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "jobTitle": {
+      "type": "string"
+    },
+    "jobDescription": {
+      "type": "richtext"
+    },
+    "requiredDocuments": {
+      "type": "richtext"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "companyName": {
+      "type": "string"
+    },
+    "companyLocation": {
+      "type": "string"
+    },
+    "Rating": {
+      "max": 10,
+      "min": 1,
+      "default": 5,
+      "type": "decimal"
+    },
+    "Tags": {
+      "displayName": "Tag",
+      "type": "component",
+      "repeatable": true,
+      "component": "tag.tag"
+    },
+    "sallery": {
+      "type": "biginteger"
+    },
+    "experience": {
+      "type": "string"
+    },
+    "noOfVacancy": {
+      "type": "biginteger"
+    },
+    "jobType": {
+      "type": "string"
+    },
+    "jobLocation": {
+      "type": "string"
+    },
+    "qualifcation": {
+      "type": "string"
+    },
+    "ageLimit": {
+      "type": "string"
+    },
+    "gender": {
+      "type": "string"
+    },
+    "hoursOfWork": {
+      "type": "integer"
+    },
+    "keySkills": {
+      "type": "string"
+    },
+    "industry": {
+      "type": "string"
+    },
+    "nationality": {
+      "type": "string"
+    },
+    "position": {
+      "type": "string"
+    },
+    "Relocation": {
+      "type": "enumeration",
+      "enum": [
+        "Yes",
+        "No"
+      ]
+    },
+    "contract": {
+      "type": "string"
+    },
+    "timings": {
+      "type": "string"
+    },
+    "locatedRemotely": {
+      "type": "enumeration",
+      "enum": [
+        "Yes",
+        "No"
+      ]
+    }
+  }
+}
