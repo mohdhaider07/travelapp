@@ -1,5 +1,5 @@
 
-import './App.css';
+
 import { Navbar, Nav, Container, NavDropdown } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navigation from './components/navbar.js'
@@ -18,10 +18,6 @@ function App() {
       	<Route exact path='/' component={jobs}/>
       	<Route path='/thisjob/:id' component={thisjob}/>
       </Switch>
-    
-      
-
-
     </div>
      
   );
